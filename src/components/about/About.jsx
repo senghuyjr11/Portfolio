@@ -23,7 +23,7 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>1+ Years Working</small>
+              <small>2+ Years Working</small>
             </article>
 
             <article className='about__card'>
@@ -44,8 +44,9 @@ const About = () => {
             </p> */}
 
             <p>
-              Hi, I'm Senghuy. Nice to meet you ^^ I'm interested in Software Engineering and currently working as a Software Engineer
-              at KOSIGN in Cambodia. I’m looking to collaborate on people who work on IT side.
+              Welcome to my portfolio! I'm Senghuy, a software engineer currently studying as a GKS-G Student in South Korea.
+              I thrive on solving complex problems and turning ideas into functional applications. Whether it’s front-end development, 
+              back-end architecture, or full-stack projects, I’m always up for a coding challenge.
             </p>
 
             <a href="#contact" className='btn btn-primary'>Let's Talk</a>

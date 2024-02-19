@@ -2,7 +2,7 @@ import React from "react";
 import "./contact.css";
 import { MdOutlineMail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
-import { AiOutlineLinkedin } from "react-icons/ai";
+import { AiOutlineInstagram, AiOutlineLinkedin } from "react-icons/ai";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 
@@ -50,16 +50,16 @@ const Contact = () => {
             <RiMessengerLine className="contact_option-icon" />
             <h4>Messenger</h4>
             <h5>Senghuy</h5>
-            <a href="https://m.me/Senghuy.Chea" target="_blank">
+            <a href="https://m.me/senghuy.chea" target="_blank">
               Send a message
             </a>
           </article>
           <article className="contact_option">
-            <AiOutlineLinkedin className="contact_option-icon" />
-            <h4>LinkedIn</h4>
-            <h5>Senghuy Chea</h5>
+            <AiOutlineInstagram className="contact_option-icon" />
+            <h4>Instagram</h4>
+            <h5>Senghuy</h5>
             <a
-              href="https://www.linkedin.com/in/senghuy-chea-8419a01ab/"
+              href="https://www.instagram.com/senghuyjr11/"
               target="_blank"
             >
               Send a message

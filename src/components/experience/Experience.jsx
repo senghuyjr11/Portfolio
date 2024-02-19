@@ -17,7 +17,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icon'/>
                 <div>
                   <h4>Mobile Native AOS Java & Kotlin</h4>
-                  <small className='text-light'>Working</small>
+                  <small className='text-light'>Experienced</small>
                 </div>
             </article>
 
@@ -25,7 +25,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icon'/>
                 <div>
                   <h4>Android Jetpack Compose</h4>
-                  <small className='text-light'>Explore more</small>
+                  <small className='text-light'>Experienced</small>
                 </div>
             </article>
 
@@ -70,11 +70,12 @@ const Experience = () => {
           
         <h3>Backend Development</h3>
           <div className="experience__content">
+
           <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
                 <div>
-                  <h4>Spring Boot</h4>
-                  <small className='text-light'>Experienced</small>
+                  <h4>Big Data & AI</h4>
+                  <small className='text-light'>Explore More</small>
                 </div>
             </article>
 
@@ -89,7 +90,7 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
                 <div>
-                  <h4>Java</h4>
+                  <h4>Java Microservices</h4>
                   <small className='text-light'>Experienced</small>
                 </div>
             </article>
@@ -97,7 +98,7 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
                 <div>
-                  <h4>Javascript</h4>
+                  <h4>Spring Boot</h4>
                   <small className='text-light'>Experienced</small>
                 </div>
             </article>
