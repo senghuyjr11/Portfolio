@@ -1,0 +1,150 @@
+export const siteContent = {
+  identity: {
+    name: "CHEA SENGHUY",
+    strapline: "Agentic AI | Multimodal AI | AI Engineer",
+    intro:
+      "Research focus: Agentic AI systems for clinical question answering.",
+    status:
+      "Current work spans LangChain orchestration, compact long conversation flow, routing pipelines, retrieval, and evidence-grounded multimodal reasoning.",
+    links: [
+      {
+        label: "GitHub",
+        href: "https://github.com/senghuyjr11",
+      },
+      {
+        label: "Google Scholar",
+        href: "https://scholar.google.com/citations?user=GnNYyy4AAAAJ&hl=en&oi=ao",
+      },
+    ],
+  },
+  about: [
+    "AI Researcher at Smart Computing Laboratory (SCLAB), Inje University. Current work centers on Agentic AI, multi-agent orchestration, routing, memory-aware conversation flow, and evidence-grounded clinical QA.",
+    "Core research stack includes LangChain, RAG, tool-based reasoning, Vision-Language Models, and QLoRA/DoRA fine-tuning for multimodal systems.",
+    "Android Native experience with Java MVC, Kotlin MVVM, Retrofit, QR payment modules, Google ML Kit, AppIron, mVaccine, TMap, and Naver Map.",
+    "Backend stack experience with Spring Boot, JPA, Hibernate, MyBatis migration, ORM, REST API design, and service maintainability improvements.",
+  ],
+  skillGroups: [
+    {
+      title: "AGENTIC AI",
+      items: [
+        "Multi-Agent Orchestration",
+        "Routing Pipeline Design",
+        "Compact Long Conversation Flow",
+        "Memory-Aware / LangChain",
+        "RAG / Cosine Similarity Embedding"
+      ],
+    },
+    {
+      title: "MULTIMODAL AI",
+      items: [
+        "Vision-Language Models",
+        "Qwen-VL / Clinical VQA",
+        "LLM Fine-tuning (QLoRA, DoRA)",
+        "Vision Transformers",
+        "PyTorch",
+      ],
+    },
+    {
+      title: "COMPUTER VISION",
+      items: [
+        "Transfer Learning",
+        "BiSeNet Segmentation",
+        "Data Augmentation",
+        "Hierarchical Classification",
+        "Image Preprocessing",
+      ],
+    },
+    {
+      title: "DEVELOPMENT",
+      items: [
+        "Android (Java/Kotlin)",
+        "Spring Boot / JPA / Hibernate",
+        "REST API / System Architecture",
+        "SQL / MyBatis / ORM",
+        "Linux Operating System",
+      ],
+    },
+  ],
+  projects: [
+    {
+      title: "Agentic Multimodal AI for Clinical Visual Question Answering with Reasoned and Evidence-Grounded Responses",
+      period: "[2024-Present]",
+      description:
+        "First-author journal work centered on Agentic AI for clinical VQA. Designed a multi-agent pipeline with routing, multimodal reasoning, conversation memory, and evidence-grounded retrieval over medical literature for pathology and radiology images.",
+      tags: [
+        "LangChain",
+        "Qwen3-VL",
+        "DoRA",
+        "Multi-Agent",
+        "RAG",
+        "Conversation Memory",
+        "Vision Transformer",
+      ],
+    },
+    {
+      title: "Seasonal Skin Tone Classification",
+      period: "[2025]",
+      description:
+        "First-author journal submission using ConvNeXt-Large, BiSeNet preprocessing, StyleGAN3 augmentation, and hierarchical classification for seasonal skin tone analysis.",
+      tags: [
+        "ConvNeXt",
+        "StyleGAN3",
+        "BiSeNet",
+        "PyTorch",
+        "Hierarchical Classification",
+      ],
+    },
+    {
+      title: "Chest X-ray Diagnosis with Vision-Language AI",
+      period: "[KICS 2025]",
+      description:
+        "First-author conference paper on chest X-ray diagnosis using Vision-Language AI for clinically relevant image understanding.",
+      tags: ["Vision-Language AI", "Chest X-ray", "Medical AI"],
+    },
+    {
+      title:
+        "Agentic Multimodal AI for Clinical Question Answering: From Images and Text to Reasoned Answer",
+      period: "[KOSOMBE 2025]",
+      description:
+        "First-author conference paper presented at KOSOMBE 2025 on agentic multimodal clinical question answering from images and text to reasoned answers.",
+      tags: [
+        "Agentic AI",
+        "Multimodal QA",
+        "Clinical AI",
+        "Reasoned Answering",
+      ],
+    },
+  ],
+  experience: [
+    {
+      role: "AI Researcher",
+      period: "2024.09 - Present",
+      organization: "Smart Computing Laboratory (SCLAB), Inje University",
+      summary:
+        "Agentic AI research for clinical question answering, covering LangChain orchestration, routing pipelines, conversation memory, RAG, multimodal reasoning, and LLM fine-tuning.",
+    },
+    {
+      role: "Software Engineer (R&D)",
+      period: "2022.03 - 2023.08",
+      organization: "KOSIGN Cambodia Investment Co., Ltd.",
+      summary: [
+        "Android work included Java MVC and Kotlin MVVM development, QR payment flows, Retrofit API integration, map/location features, Google ML Kit scanning, and AppIron and mVaccine security integration.",
+        "Backend work included leading the migration from MyBatis to Spring Boot + JPA(Hibernate), driving new feature updates, preparing pre-deploy environments, and improving API maintainability through ORM-based layered architecture.",
+      ],
+    },
+    {
+      role: "System Infrastructure Engineer (Intern)",
+      period: "2019.04 - 2020.01",
+      organization: "Redbridge Financial Advisor",
+      summary:
+        "Server infrastructure, network system management, monitoring, incident response, and internal IT maintenance.",
+    },
+  ],
+  contact: {
+    prompt: "CONNECT",
+    email: "senghuy001@gmail.com",
+    phone: "010-6674-8661",
+    location: "Gimhae-si, Gyeongsangnam-do, South Korea",
+    note: "",
+  },
+};
