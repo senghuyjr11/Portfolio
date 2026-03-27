@@ -142,9 +142,8 @@ export const siteContent = {
   ],
   contact: {
     prompt: "CONNECT",
-    email: "senghuy001@gmail.com",
-    phone: "010-6674-8661",
-    location: "Gimhae-si, Gyeongsangnam-do, South Korea",
+    Email: "senghuy001@gmail.com",
+    Location: "Gimhae-si, South Korea",
     note: "",
   },
 };

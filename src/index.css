@@ -14,6 +14,7 @@
     background:
       radial-gradient(circle at top, rgba(255, 255, 255, 0.35), transparent 32%),
       linear-gradient(180deg, #e8dfd1 0%, #f4eee3 18%, #efe7da 100%);
+    overflow-x: hidden;
   }
 
   body::before {
@@ -40,6 +41,19 @@
 @layer components {
   .paper-rule {
     @apply h-px w-full bg-line shadow-[0_1px_0_0_#e7dece];
+  }
+
+  .portfolio-bg-art {
+    position: absolute;
+    inset: auto 0 0 0;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center 38%;
+    background-size: cover;
+    opacity: 0.96;
+    transform-origin: center bottom;
+    will-change: height;
+    filter: saturate(0.95) contrast(1.04);
   }
 
   .ink-ripple {
@@ -80,5 +94,16 @@
   to {
     opacity: 0;
     transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  @layer components {
+    .portfolio-bg-art {
+      inset: auto 0 0 0;
+      height: 100vh;
+      background-size: cover;
+      background-position: center 38%;
+    }
   }
 }

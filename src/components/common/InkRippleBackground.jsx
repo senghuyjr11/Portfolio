@@ -47,6 +47,12 @@ const InkRippleBackground = () => {
 
   return (
     <div className="pointer-events-none fixed inset-0 z-0 overflow-hidden">
+      <div
+        className="portfolio-bg-art"
+        style={{
+          backgroundImage: `url(${process.env.PUBLIC_URL}/bg1.svg)`,
+        }}
+      />
       {ripples.map((ripple) => (
         <span
           key={ripple.id}

@@ -14,10 +14,7 @@ const SkillsSection = ({ groups }) => {
             key={group.title}
             className="min-h-full border-l-2 border-line py-1 pl-[18px]"
           >
-            <p className="mb-[14px] mt-0 text-ink-soft">
-              {"// "}
-              {group.title}
-            </p>
+            <p className="mb-[14px] mt-0 font-semibold">{group.title}</p>
             <ul className="m-0 grid list-none gap-[10px] p-0 text-[clamp(1rem,1.3vw,1.08rem)]">
               {group.items.map((item) => (
                 <li key={item}>▪ {item}</li>

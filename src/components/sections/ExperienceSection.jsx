@@ -14,7 +14,7 @@ const ExperienceSection = ({ experience }) => {
             key={`${item.role}-${item.period}`}
             className="grid grid-cols-[10px_minmax(0,1fr)] gap-[18px]"
           >
-            <div className="w-1 bg-line shadow-[10px_0_0_0_rgba(24,19,15,0.25)]" />
+            <div className="w-1 bg-line" />
             <div className="pb-1">
               <div className="flex flex-col items-start justify-between gap-[6px] md:flex-row md:items-baseline md:gap-4">
                 <h3 className="m-0 font-display tracking-[0.04em]">
