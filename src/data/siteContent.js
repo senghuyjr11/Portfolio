@@ -1,7 +1,7 @@
 export const siteContent = {
   identity: {
     name: "CHEA SENGHUY",
-    strapline: "Agentic AI | Multimodal AI | AI Engineer",
+    strapline: "Agentic AI | Software Engineer",
     intro:
       "Research focus: Agentic AI systems for clinical question answering.",
     status:
@@ -18,10 +18,7 @@ export const siteContent = {
     ],
   },
   about: [
-    "AI Researcher at Smart Computing Laboratory (SCLAB), Inje University. Current work centers on Agentic AI, multi-agent orchestration, routing, memory-aware conversation flow, and evidence-grounded clinical QA.",
-    "Core research stack includes LangChain, RAG, tool-based reasoning, Vision-Language Models, and QLoRA/DoRA fine-tuning for multimodal systems.",
-    "Android Native experience with Java MVC, Kotlin MVVM, Retrofit, QR payment modules, Google ML Kit, AppIron, mVaccine, TMap, and Naver Map.",
-    "Backend stack experience with Spring Boot, JPA, Hibernate, MyBatis migration, ORM, REST API design, and service maintainability improvements.",
+    "I build AI systems and software applications, with experience ranging from research prototypes to production-ready code. My work spans multimodal learning, Agentic AI and Java Spring Boot/Mobile development.",
   ],
   skillGroups: [
     {

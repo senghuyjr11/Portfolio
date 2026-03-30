@@ -40,20 +40,13 @@
 
 @layer components {
   .paper-rule {
-    @apply h-px w-full bg-line shadow-[0_1px_0_0_#e7dece];
+    @apply h-px w-full bg-black;
   }
 
-  .portfolio-bg-art {
-    position: absolute;
-    inset: auto 0 0 0;
-    height: 100vh;
+  .page-sheet {
     background-repeat: no-repeat;
-    background-position: center 38%;
-    background-size: cover;
-    opacity: 0.96;
-    transform-origin: center bottom;
-    will-change: height;
-    filter: saturate(0.95) contrast(1.04);
+    background-position: center top;
+    background-size: 100% 100%;
   }
 
   .ink-ripple {
@@ -99,11 +92,9 @@
 
 @media (max-width: 768px) {
   @layer components {
-    .portfolio-bg-art {
-      inset: auto 0 0 0;
-      height: 100vh;
+    .page-sheet {
       background-size: cover;
-      background-position: center 38%;
+      background-position: center top;
     }
   }
 }

@@ -17,16 +17,13 @@ const ExperienceSection = ({ experience }) => {
             <div className="w-1 bg-line" />
             <div className="pb-1">
               <div className="flex flex-col items-start justify-between gap-[6px] md:flex-row md:items-baseline md:gap-4">
-                <h3 className="m-0 font-display tracking-[0.04em]">
-                  {item.role}
+                <h3 className="m-0 font-display font-bold tracking-[0.04em]">
+                  {item.role} - {item.organization}
                 </h3>
                 <span className="whitespace-nowrap text-ink-soft">
                   {item.period}
                 </span>
               </div>
-              <p className="mt-3 text-[clamp(1rem,1.3vw,1.08rem)]">
-                {item.organization}
-              </p>
               {Array.isArray(item.summary) ? (
                 item.summary.map((paragraph) => (
                   <p

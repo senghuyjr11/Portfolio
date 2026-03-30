@@ -10,7 +10,7 @@ const HeroSection = ({ identity }) => {
         ▶ {identity.name}
       </p>
       <p className="m-0 text-[clamp(1rem,1.3vw,1.08rem)]">
-        &gt; {identity.strapline}
+          <strong>&gt; {identity.strapline}</strong>
       </p>
       <div className="paper-rule" />
       <div className="grid max-w-[52rem] gap-2 text-[clamp(1rem,1.3vw,1.08rem)]">
