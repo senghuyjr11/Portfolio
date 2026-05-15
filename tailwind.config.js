@@ -28,9 +28,6 @@ module.exports = {
       animation: {
         "page-rise": "page-rise 480ms ease both",
       },
-      maxWidth: {
-        page: "960px",
-      },
     },
   },
   plugins: [],

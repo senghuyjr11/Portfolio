@@ -13,7 +13,7 @@ const HeroSection = ({ identity }) => {
           <strong>&gt; {identity.strapline}</strong>
       </p>
       <div className="paper-rule" />
-      <div className="grid max-w-[52rem] gap-2 text-[clamp(1rem,1.3vw,1.08rem)]">
+      <div className="grid gap-2 text-[clamp(1rem,1.3vw,1.08rem)]">
         <p className="m-0">
           {hasIntroPrefix ? (
             <>

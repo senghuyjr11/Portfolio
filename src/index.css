@@ -44,9 +44,10 @@
   }
 
   .page-sheet {
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 100% 100%;
+    background: #dbc29b;
+    box-shadow:
+      inset 0 0 0 1px rgba(83, 57, 29, 0.14),
+      inset 0 0 120px rgba(86, 57, 30, 0.07);
   }
 
   .ink-ripple {
@@ -93,8 +94,7 @@
 @media (max-width: 768px) {
   @layer components {
     .page-sheet {
-      background-size: cover;
-      background-position: center top;
+      background: #dbc29b;
     }
   }
 }
