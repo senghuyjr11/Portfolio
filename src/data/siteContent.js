@@ -19,7 +19,7 @@ export const siteContent = {
   },
   about: [
     "Background: Android Native development and Spring Boot JPA.",
-    "Languages: TOPIK Level 3, TEPS Level 3.",
+    "Languages: TOPIK Level 4, TEPS Level 3.",
   ],
   skillGroups: [
     {
@@ -44,7 +44,7 @@ export const siteContent = {
   researchProjects: [
     {
       title: "Agentic Multimodal AI for Clinical Visual Question Answering with Reasoned and Evidence-Grounded Responses",
-      period: "[Master's Thesis, 2024-Present]",
+      period: "[Master's Thesis]",
       description:
         "Master's thesis project on a multi-agent clinical VQA system with routing, memory, and multimodal reasoning for pathology and radiology images.",
       tags: [
@@ -62,23 +62,31 @@ export const siteContent = {
     {
       title: "Seasonal Skin Tone Classification Using a Hierarchical Deep Learning Framework",
       venue: "JICCE",
-      year: "2026",
-      status: "Journal paper (Accepted, online publication pending)",
+      year: "2026.06",
+      status: "Journal paper - First Author",
       note: "",
     },
     {
       title: "Chest X-ray Diagnosis with Vision-Language AI",
-      venue: "KICS",
-      year: "2025",
-      status: "Conference paper",
+      venue: "KIICE",
+      year: "2025.05",
+      status: "Conference paper - First Author",
       note: "",
     },
     {
       title:
         "Agentic Multimodal AI for Clinical Question Answering: From Images and Text to Reasoned Answer",
       venue: "KOSOMBE",
-      year: "2025",
-      status: "Conference paper",
+      year: "2025.07",
+      status: "Conference paper - First Author",
+      note: "",
+    },
+    {
+      title:
+        "Two-Stage Deep Learning for Corrosion Detection and Severity Estimation",
+      venue: "Automation - MDPI",
+      year: "2026.04",
+      status: "Journal paper - Co-Author",
       note: "",
     },
   ],
